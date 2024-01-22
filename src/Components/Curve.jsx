@@ -2,6 +2,7 @@
 import { FaPlus } from "react-icons/fa6";
 
 const Curve = ({ child, id }) => {
+  console.log(child)
   let left;
   if (id === 0) {
     left = true;
